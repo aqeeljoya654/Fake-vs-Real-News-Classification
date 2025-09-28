@@ -1,11 +1,11 @@
- Fake News Detection
+# 📰 Fake News Detection
 
 This project builds Machine Learning and Deep Learning models to detect **Fake vs Real news** articles.  
 It uses **TF-IDF vectorization**, multiple ML models (Logistic Regression, Naive Bayes, Random Forest), and a **Deep Learning Neural Network**.
 
 ---
 
-Project Structure
+# Project Structure
 - `notebooks/` → Jupyter notebook with full workflow (EDA + ML + DL).
 - `src/` → Python scripts for modular use.
 - `results/` → Word clouds, confusion matrices, metrics.
@@ -13,7 +13,7 @@ Project Structure
 
 ---
 
-Features
+# Features
 - Data preprocessing (tokenization, stopwords removal, lemmatization)
 - Exploratory Data Analysis (word clouds, frequent words, length distribution)
 - Models:
@@ -26,15 +26,38 @@ Features
 
 ---
 
-Results
+# Results
 - Best Model: **Random Forest / Deep Learning**  
 - Accuracy: ~95%+  
 - Confusion matrix shows performance clearly.
 
 ---
 
-Installation
+# Installation
 ```bash
 git clone https://github.com/YOUR_USERNAME/Fake-News-Detection.git
 cd Fake-News-Detection
 pip install -r requirements.txt
+```
+
+---
+
+# Usage
+Run the Jupyter notebook:
+```bash
+jupyter notebook notebooks/FakeNews_EDA_Models.ipynb
+```
+
+Or use the Python script for prediction:
+```bash
+python src/predict.py "Breaking: Government announces new renewable energy policies."
+```
+
+---
+
+# Dataset
+Dataset used: [Kaggle – Fake and Real News Dataset](https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset)
+
+---
+
+
